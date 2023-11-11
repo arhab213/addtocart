@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Black+Ops+One&family=Mukta:wght@600&display=swap');
+.Items{
+    text-align: center;
+    display: flex;
+    gap:5%;
+    flex-direction: column;
+    align-items: center;
+    
+    border-radius:5px;
+    padding:20px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.Items span{
+    margin:10px;
+}
+.Items img{
+    margin:10px auto;
+}
+.Items button{
+    font-family: 'Mukta', sans-serif;
+    background: #606C5D;
+    border: 1px;
+    padding:7px 10px;
+    color: white;
+    cursor:pointer;
+}
+.Items button:hover{
+   transform: scale(1.1);
+   transition:0.05s;
+
+   
+}

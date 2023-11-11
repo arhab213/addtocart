@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Black+Ops+One&family=Mukta:wght@600&display=swap');
+#cartItemContainer{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    font-family: 'Mukta', sans-serif;
+}
+#cartItemContainer input{
+    padding:3px;
+}
+#cartItemContainer button{
+    background: #606C5D;
+    color: aliceblue;
+    border:none;
+    border-radius:5px;
+    padding:5px;
+    margin:5px;
+    cursor: pointer;
+
+}
+#cartItemContainer button:hover{
+    background-color: red;
+    transition: 0.2s;
+}

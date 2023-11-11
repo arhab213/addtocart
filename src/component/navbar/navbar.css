@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Black+Ops+One&family=Mukta:wght@600&display=swap');
+
+.navbarParent{
+    position: fixed;
+    width:100%;
+   
+}
+#navbar{
+    background: #606C5D;
+    font-family: 'Mukta', sans-serif;
+    font-size: 1.2rem;
+    color: white;
+    display: flex;
+    gap: 5%;
+}
+#navbar img{
+    height:20px;
+    padding: 10px 5px;
+    margin: 0 50% 0 3%;
+}
+#navbar div{
+    padding:5px;
+}
+.navbarParent #navbar{
+    padding:5px;
+}

@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Black+Ops+One&family=Mukta:wght@600&display=swap');
+*{
+    margin:0;
+    padding: 0;
+}
+#itmesContainer{
+    display: flex;
+    justify-content: space-around;
+}
+.cart{
+    font-size:3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Mukta', sans-serif;
+
+}
+.itemS input{
+    width:50px;
+}
+#total{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Mukta', sans-serif;
+    font-size:2rem;
+}
+#itmesContainer{
+    padding-top:60px;
+}
